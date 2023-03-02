@@ -12,6 +12,7 @@ void nomeFixe(int matriz[][3]) {
             for (j = 0; j < i; j++) {
                 if (matriz[j][0] == num) {
                     repeated = 1;
+                    printf("Elemento Repetido\n");
                     break;
                 }
             }
