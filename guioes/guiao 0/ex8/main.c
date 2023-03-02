@@ -7,7 +7,12 @@ void nomeFixe(int matriz[][3]) {
 
     for (i = 0; i < TAM; i++) {
         do {
-            scanf("%d", &num);
+            do{
+                scanf("%d", &num);
+                if(num<0 || num>100){
+                    printf("Valor invalido\n");
+                }
+            }while(num<0 || num>100);
             repeated = 0;
             for (j = 0; j < i; j++) {
                 if (matriz[j][0] == num) {
