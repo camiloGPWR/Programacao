@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ex22.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\ex22.dir/objects.a @CMakeFiles\ex22.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ex22.dir/objects.a -Wl,--no-whole-archive -o ex22.exe -Wl,--out-implib,libex22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ex22.dir\linklibs.rsp
