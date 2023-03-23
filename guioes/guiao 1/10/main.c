@@ -15,7 +15,8 @@ int tres_consecutivos(char *frase){
 
 
 int main() {
-    char frase[80]="ola meus caros e caraaas";
+    char frase[80]="olaaaaaaolaolaola";
     printf("%d", tres_consecutivos(frase));
     return 0;
 }
+

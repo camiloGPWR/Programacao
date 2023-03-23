@@ -8,9 +8,14 @@
 #define C2	3
 
 
-void escreve(int n_lin, int n_col, ...)
+void escreve(int n_lin, int n_col, int mat[n_lin][n_col])
 {
-    //printf("Falta implementar funcao\n");
+    for(int i=0; i<n_lin; i++){
+        for(int j=0; j<n_col; j++)
+            printf("%d ", mat[i][j]);
+
+        putchar('\n');
+    }
 }
 
 
@@ -23,10 +28,10 @@ int main()
 
 
     printf("Matriz 1:\n");
-    escreve(L1, C1, ...);
+    escreve(L1, C1, mat1);
 
     printf("Matriz 2:\n");
-    escreve(L2, C2, ...);
+    escreve(L2, C2, mat2);
 
     return 0;
 }

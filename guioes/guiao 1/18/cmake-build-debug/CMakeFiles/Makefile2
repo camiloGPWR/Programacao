@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\ex18"
+CMAKE_SOURCE_DIR = "C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\18"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\ex18\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\18\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/ex18.dir/clean
 CMakeFiles/ex18.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex18.dir\build.make CMakeFiles/ex18.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex18.dir\build.make CMakeFiles/ex18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\ex18\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target ex18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\18\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target ex18"
 .PHONY : CMakeFiles/ex18.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex18.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\ex18\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\18\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ex18.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\ex18\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mtoma\Desktop\CLion Stuff\GitHub\programacao\guioes\guiao 1\18\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/ex18.dir/rule
 
 # Convenience name for target.
